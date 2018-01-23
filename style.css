@@ -1,0 +1,29 @@
+
+body {
+    font-family: Itim;
+    color: aqua;
+    text-align: center;
+}
+
+section#carousel>figure>img {
+    display: none;
+    margin: 0px;
+}
+
+section#carousel>figure.visible>img {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 0px auto;
+}
+
+section#carousel>figure>figcaption {
+    display: none;
+}
+
+section#carousel>figure.visible>figcaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
